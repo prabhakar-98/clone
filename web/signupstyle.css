@@ -1,0 +1,83 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+    box-sizing:inherit;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(to top left,aqua,antiquewhite);
+   
+}
+form{
+     width: 300px;
+     
+     margin: 0 auto;
+     position: relative;
+     top: 40%;
+     transform: translateY(-50%);
+     
+     box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+     padding: 20px 40px;
+     background-color: aliceblue;
+     
+  
+}
+.lebelgroup{
+    font-size: large;
+    font-style: bold;
+    height: 100%;
+
+}
+.lebelgroup input{
+    width: 100%;
+    height: 25px;
+}
+
+#button{
+    display: block;
+    height: 40px;
+   
+    
+    text-align: center;
+    margin:8px 0px 0px 10px;
+    
+}
+#button button{
+    width: 50%;
+    height: 30px;
+    background-color: rgba(0, 85, 255, 0.475);   
+}
+footer{
+    font-size: large;
+    margin-top: 10px;
+    font-style: italic;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+   
+    border-radius: 100px;
+    background-color: beige;
+    position: absolute;
+}
+.c1{
+    top: 330px;
+    left: 300px;
+}
+.c2{
+    bottom: 100px;
+    right: 50px;
+
+}
+.lebelgroup p{
+    font-weight: bold;
+    margin: 4px;
+    padding: 4px;
+}
